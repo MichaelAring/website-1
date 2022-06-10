@@ -30,6 +30,7 @@ Available Commands:
   sync-await          Awaits an event triggered using gp sync-done
   sync-done           Notifies the corresponding gp sync-await calls that this event has happened
   tasks               Interact with workspace tasks
+  top                 Display workspace resource (CPU and memory usage)
   url                 Prints the URL of this workspace
   version             Prints the version of the CLI
 
@@ -148,3 +149,7 @@ Alternatively, specify the `Terminal ID` that you can see with `gp tasks list`:
 ```sh
 gp tasks attach <id>
 ```
+
+### top
+
+Displays the used and available workspace CPU and memory.
