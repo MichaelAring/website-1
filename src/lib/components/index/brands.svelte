@@ -24,6 +24,6 @@
 {#if isCustomerStoriesLinkShown}
   <div class="mt-8">
     View&nbsp;
-    <a href="/customers"><span class="underline">customer stories</span></a>
+    <a href="/customers#stories"><span class="underline">customer stories</span></a>
   </div>
 {/if}
